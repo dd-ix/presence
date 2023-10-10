@@ -12,6 +12,7 @@ import {IconGroupComponent} from "./icons/icon-group/icon-group.component";
 import {IconPhoneComponent} from "./icons/icon-phone/icon-phone.component";
 import {IconFaceComponent} from "./icons/icon-face/icon-face.component";
 import {NotificationListComponent} from "@feel/notification";
+import {NgOptimizedImage} from "@angular/common";
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import {NotificationListComponent} from "@feel/notification";
         IconPhoneComponent,
         IconFaceComponent,
         NotificationListComponent,
+        NgOptimizedImage,
     ],
   providers: [provideClientHydration()],
   bootstrap: [AppComponent]
